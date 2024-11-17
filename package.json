@@ -1,5 +1,5 @@
 {
-   "name": "Queen_Anita-V2",
+   "name": "Queen_Anita_V2",
    "version": "2.5.0",
    "description": "Multi device whatsapp bot by DeeCeeXxx ....",
    "main": "index.js",
@@ -9,8 +9,8 @@
       "DeeCeeXxx ": "pm2 start . --deep-monitoring --attach --name DeeCeeXxx || node .",
       "start": "pm2 start . --attach --name DeeCeeXxx",
       "stop": "pm2 stop DeeCeeXxx",
-      "heroku-postbuild": "git clone https://github.com/DeeCeeXxx/Queen_Anita-V2.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-      "fis-heroku-postbuild": "git clone https://github.com/DeeCeeXxx/Queen_Anita-V2.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+      "heroku-postbuild": "git clone https://github.com/DeeCeeXxx/Queen_Anita_V2.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+      "fis-heroku-postbuild": "git clone https://github.com/DeeCeeXxx/Queen_Anita_V2.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
       "postinstall": "npx puppeteer@latest install --y"
    },
    "author": "Itxxwasi",
@@ -77,10 +77,10 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/Itxxwasi/Queen_Anita-V2.git"
+      "url": "git+https://github.com/Itxxwasi/Queen_Anita_V2.git"
    },
    "bugs": {
-      "url": "https://github.com/Itxxwasi/Queen_Anita-V2/issues"
+      "url": "https://github.com/Itxxwasi/Queen_Anita_V2/issues"
    },
-   "homepage": "https://github.com/Itxxwasi/Queen_Anita-V2#readme"
+   "homepage": "https://github.com/Itxxwasi/Queen_Anita_V2#readme"
 }
